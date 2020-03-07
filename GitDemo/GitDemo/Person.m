@@ -10,4 +10,8 @@
 
 @implementation Person
 
+- (void)test {
+    
+}
+
 @end
