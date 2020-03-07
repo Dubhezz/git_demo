@@ -15,6 +15,7 @@
 		4609114224128EA500FB78DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4609114024128EA500FB78DF /* LaunchScreen.storyboard */; };
 		4609114524128EA500FB78DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4609114424128EA500FB78DF /* main.m */; };
 		4609114F24128EA500FB78DF /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4609114E24128EA500FB78DF /* GitDemoTests.m */; };
+		4609115B24136E1300FB78DF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4609115A24136E1300FB78DF /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		4609114A24128EA500FB78DF /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4609114E24128EA500FB78DF /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
 		4609115024128EA500FB78DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4609115924136E1300FB78DF /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4609115A24136E1300FB78DF /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				4609113624128EA400FB78DF /* SceneDelegate.m */,
 				4609113824128EA400FB78DF /* ViewController.h */,
 				4609113924128EA400FB78DF /* ViewController.m */,
+				4609115924136E1300FB78DF /* Person.h */,
+				4609115A24136E1300FB78DF /* Person.m */,
 				4609113B24128EA400FB78DF /* Main.storyboard */,
 				4609113E24128EA500FB78DF /* Assets.xcassets */,
 				4609114024128EA500FB78DF /* LaunchScreen.storyboard */,
@@ -210,6 +215,7 @@
 			files = (
 				4609113A24128EA400FB78DF /* ViewController.m in Sources */,
 				4609113424128EA400FB78DF /* AppDelegate.m in Sources */,
+				4609115B24136E1300FB78DF /* Person.m in Sources */,
 				4609114524128EA500FB78DF /* main.m in Sources */,
 				4609113724128EA400FB78DF /* SceneDelegate.m in Sources */,
 			);
